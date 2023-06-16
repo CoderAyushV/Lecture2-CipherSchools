@@ -1,7 +1,11 @@
 This repository is about to print on the desktop hello world using C++.
-#include using namespace std;
+#include <iostream>
+
+using namespace std;
+
 int main()
-{ 
-  cout<<"Hello World";
-  return 0;
+{
+    cout<<"Hello World";
+
+    return 0;
 }
